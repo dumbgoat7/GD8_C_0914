@@ -6,8 +6,8 @@ import org.osmdroid.views.overlay.Marker
 import org.osmdroid.views.overlay.infowindow.InfoWindow
 
 class CustomInfoWindow(mapView: MapView?) : InfoWindow(R.layout.layout_tooltip, mapView) {
-    override fun onClose() {
-        TODO("Not yet implemented")
+    override fun onClose(){
+
     }
 
     override fun onOpen(item: Any?) {
